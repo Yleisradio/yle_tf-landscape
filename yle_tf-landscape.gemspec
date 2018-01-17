@@ -26,8 +26,8 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'yle_tf', '>= 0.2'
   spec.add_dependency 'terraform_landscape', '~> 0.1.13'
+  spec.add_dependency 'yle_tf', '>= 0.2'
 
   spec.add_development_dependency 'bundler', '~> 1.13'
   spec.add_development_dependency 'rake', '~> 12.0'
