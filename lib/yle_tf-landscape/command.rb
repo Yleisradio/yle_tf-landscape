@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'terraform_landscape'
 require 'yle_tf/logger'
 require 'yle_tf/system'
@@ -14,7 +16,7 @@ module YleTfPlugins
 
         YleTf::Logger.info 'Running `terraform plan`'
         YleTf::System.cmd('terraform', 'plan', *args,
-                          stdin: :console,
+                          stdin:  :console,
                           stdout: landscape_handler)
       end
 
