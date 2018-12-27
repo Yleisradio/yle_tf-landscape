@@ -2,6 +2,6 @@
 
 module YleTfPlugins
   module Landscape
-    VERSION = '1.0.1.dev'
+    VERSION = '1.1.0'
   end
 end
