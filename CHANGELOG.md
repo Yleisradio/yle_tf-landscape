@@ -1,3 +1,6 @@
+## 1.1.1 / _Not released yet_
+
+
 ## 1.1.0 / 2018-12-27
 
 - Support also terraform_landscape v0.2.x ([GH-3](https://github.com/Yleisradio/yle_tf-landscape/pull/3))
