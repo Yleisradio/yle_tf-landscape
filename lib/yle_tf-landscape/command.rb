@@ -35,9 +35,15 @@ module YleTfPlugins
       end
 
       def landscape_output(env)
-        TerraformLandscape::Output.new(STDOUT).tap do |output|
-          output.color_enabled = false if env[:tf_options][:no_color]
+        output = TerraformLandscape::Output.new(STDOUT)
+
+        # Disable colors in Landscape
+        if env[:tf_options][:no_color]
+          String.disable_colorization = true
+          output.color_enabled = false
         end
+
+        output
       end
     end
   end
