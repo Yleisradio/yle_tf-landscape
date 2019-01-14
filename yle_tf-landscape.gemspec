@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'terraform_landscape', '>= 0.1.13', '< 0.3'
   spec.add_dependency 'yle_tf', '>= 0.2'
 
-  spec.add_development_dependency 'bundler', '~> 1.13'
+  spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'rake', '~> 12.0'
   spec.add_development_dependency 'rspec', '~> 3.5'
 end
