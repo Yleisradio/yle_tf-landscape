@@ -28,6 +28,8 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = ['lib']
 
+  # Terraform Landscape v0.3 requires Ruby 2.5+ while YleTf supports Ruby 2.3+.
+  # There is a "terraform_landscape_0.3" branch for testing.
   spec.add_dependency 'terraform_landscape', '>= 0.1.13', '< 0.3'
   spec.add_dependency 'yle_tf', '>= 0.2'
 
