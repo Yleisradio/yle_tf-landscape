@@ -33,6 +33,8 @@ You can also add it without group definition, and load it in the code:
 require 'yle_tf-landscape'
 ```
 
+*NOTE:* Terraform Landscape v0.3 requires Ruby 2.5 or later. If you are locked down to older Ruby version, you must pin down the `terraform_landscape` gem version to e.g. `~> 0.2.2`.
+
 ## Configuration
 
 There is no configuration for the plugin.
